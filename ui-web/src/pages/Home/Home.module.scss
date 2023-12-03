@@ -1,0 +1,70 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    flex-direction: column;
+}
+.header { 
+    background-color: #333;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search-input {
+    width: 480px;
+}
+
+.movie, .tvseries{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title {
+    margin: 0;
+    margin-top: 20px;
+}
+
+
+
+.film-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333;
+    padding: 10px;
+    width: 90%;
+    margin: 4px auto;
+    border-radius: 4px;
+}
+
+.film-title {
+    margin: 0;
+    font-size: 20px;
+    
+}
+
+.film-info {
+    font-size: 16px;
+}
+
+.film-rating, .film-review {
+    margin: 20px 50px;
+}
+
+.rating-input {
+    width: 120px;
+    margin: 0 10px;
+}
+
+.rating-input__review {
+    width: 720px;
+    margin: 0 10px;
+}
+
+
+
+
+
