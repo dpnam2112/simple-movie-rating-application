@@ -51,17 +51,42 @@
 }
 
 .film-rating, .film-review {
-    margin: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    justify-content: center;
+    margin: 20px auto;
+    border: 1px solid #333;
+    align-items:center;
+    padding: 10px;
+
+}
+
+
+.id {
+    display: flex;
+    align-items:center;
+}
+
+.title-input {
+    margin-right: 10px;
+}
+
+.rating-id {
+    height: 30px;
 }
 
 .rating-input {
-    width: 120px;
-    margin: 0 10px;
+    margin:  10px 0;
+    width: 100%;
+}
+
+.rating-input__title {
+    margin:  10px 0;
 }
 
 .rating-input__review {
-    width: 720px;
-    margin: 0 10px;
+    margin:  10px 0;
 }
 
 
